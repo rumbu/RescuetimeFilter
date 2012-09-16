@@ -98,8 +98,8 @@ if (!empty($_SESSION['file'])) {
             } ?></h2>
         <form method="post" enctype="multipart/form-data" class="form-inline <?php if ($uploaded) {?> hide<?php }?>">
             <p>Upload an exported <b>CSV</b> file from <b>Documents and Details</b> section or by an
-                <a href="https://www.rescuetime.com&shy;/browse/documents/by/rank/for/the/month/of/<?php echo date('Y-m-d')?>.csv"
-                   target="_blank" rel="nofollow">URL</a></p>
+                <a href="https://www.rescuetime.com/browse/documents/by/rank/for/the/month/of/<?php echo date('Y-m-d')?>.csv"
+                   target="_blank" rel="nofollow">URL</a>:</p>
             <label class="control-label" for="csvFile">File</label>
                 <input type="file" name="csvFile" id="csvFile"/>
                 <button type="submit" class="btn btn-primary">Submit</button>
