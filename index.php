@@ -26,7 +26,7 @@ function rescuetime_format($time) {
 
 // handle file uploading
 if (!empty($_FILES['csvFile']) && UPLOAD_ERR_OK==$_FILES['csvFile']['error']) {
-    $_SESSION['file'] = $file = '/'.md5(mt_rand() . microtime(true));
+    $_SESSION['file'] = $file = '/'.md5(mt_rand() . microtime(true)).'.csv';
     move_uploaded_file($_FILES['csvFile']['tmp_name'], $cacheDir.$file);
     header("Location: ".reset(explode('?',$_SERVER['REQUEST_URI']))); exit;
 }
