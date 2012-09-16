@@ -2,4 +2,4 @@ Description: This project is a patch for Rescuetime time tracker. Rescuetime Fil
 
 Author: R. Lisin <roman@lisin.ru>
 
-Requirements: php 5.3+
+Requirements: webserver, php 5.3+
