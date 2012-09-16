@@ -1,1 +1,5 @@
-This file was created by JetBrains PhpStorm 4.0.3 for binding GitHub repository
+Description: This project is a patch for Rescuetime time tracker. Rescuetime Filter provides a right filtering like paid "Custom Reports" feature, that is not working well now (Sep 2012).
+
+Author: R. Lisin <roman@lisin.ru>
+
+Requirements: php 5.3+
