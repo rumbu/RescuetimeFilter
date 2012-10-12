@@ -5,7 +5,8 @@ $cacheDir = './cache';
 $apiUrl = 'https://www.rescuetime.com/anapi/data';
 $filter_logic = 'or';
 $limit = 30;
-$selfUrl = explode('?',$_SERVER['REQUEST_URI'])[0]; // php 5.4+?
+$url = explode('?',$_SERVER['REQUEST_URI']);
+$selfUrl = $url[0];
 
 // constants
 define('RESCUETIME_FILTER_TIMEFIELD', 'Time Spent (seconds)');
