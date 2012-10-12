@@ -2,10 +2,11 @@ Description: This project is a patch for Rescuetime time tracker. Rescuetime Fil
 
 Author: R. Lisin <roman@lisin.ru>
 
-Requirements: webserver, php 5.3+
+Requirements: webserver, php 5.3+ with cURL
 
 Demo: http://www.lisin.ru/rescuetimefilter/
 Blog post: http://www.lisin.ru/2012/09/17/rescuetime-filter/
 
 Version 2.0 Changes:
 - Rescuetime API Support
+- Grabs detailed stats with cURL
